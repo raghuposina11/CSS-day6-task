@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10rem 35rem;
+    border: 2px solid gray;
+    height: 60vh;
+    overflow: scroll;
+    border-radius: 0.2rem;
+}
+.left {
+    padding: 1.5rem 1rem;
+}
+.right {
+    text-align: right;
+    padding: 1.5rem 1rem;
+}
+.center {
+    position: sticky;
+    top: 1vh;
+    text-align: center;
+    color: white;
+}
+span {
+    background: grey;
+    padding: 0 1rem;
+}
